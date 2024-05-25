@@ -1,0 +1,97 @@
+/* General styling */
+body {
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+    display: flex;
+}
+
+.container {
+    width: 80%;
+    max-width: 800px;
+    margin: 20px auto;
+    background: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+/* Header styling */
+header {
+    text-align: center;
+    border-bottom: 2px solid #333;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+    color: #0073e6;
+}
+
+header p {
+    margin: 5px 0;
+    font-size: 1.2em;
+}
+
+/* Section styling */
+section {
+    margin-top: 20px;
+}
+
+h2 {
+    border-bottom: 2px solid #0073e6;
+    padding-bottom: 5px;
+    color: #0073e6;
+}
+
+.job, .school {
+    margin-top: 10px;
+}
+
+.job h3, .school h3 {
+    margin: 0;
+    font-size: 1.5em;
+    color: #333;
+}
+
+.job p, .school p {
+    margin: 5px 0;
+    font-size: 1.1em;
+}
+
+ul {
+    list-style-type: square;
+    margin: 10px 0;
+    padding-left: 20px;
+}
+
+ul li {
+    margin: 5px 0;
+    font-size: 1.1em;
+}
+
+/* Styling for better alignment */
+section .job, section .school {
+    padding: 10px 0;
+    border-bottom: 1px solid #e6e6e6;
+}
+
+section .job:last-child, section .school:last-child {
+    border-bottom: none;
+}
+
+ul.skills-list {
+    columns: 2;
+    -webkit-columns: 2;
+    -moz-columns: 2;
+}
+
+.skills-list li {
+    break-inside: avoid;
+    padding: 5px 0;
+}
